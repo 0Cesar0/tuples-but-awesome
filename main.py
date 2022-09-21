@@ -138,10 +138,12 @@ warrior = { 'made_by':'hbomax',
           'release_date':2018,
           'budget':'24million',
           'rotten_tomato_score':'fresh'}
+#this is how you add things to the dictionary
 warrior['score '] = 78
 print(warrior['release_date'])
 print(warrior['budget'])
 print(warrior.items())
+print(warrior.keys())
 
 #challenge 1
 # Create a dictionary called my_dict that stores the following information about a person:
@@ -150,7 +152,11 @@ print(warrior.items())
 # age: 35
 # occupation: Journalist
 # The names of the keys and values must be equal to the ones indicated above.
-
+my_dict = {'name':'Karen',
+          'surname':'Jurgens',
+          'age':35,
+          'occupation':'Journalist'}
+print(my_dict['occupation'])
 #challenge 2:
 # Use print to returns the second item of the list called points2, inside the following dictionary.
 
